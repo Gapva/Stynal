@@ -5,7 +5,7 @@
 Prerequisites
 - The latest [Python](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/downloads)
-- - This is optional if you want to [download the repository yourself](https://github.com/Gapva/Stynal/archive/refs/heads/main.zip) and extract it
+- - This is optional if you want to [download the repository yourself](https://github.com/Gapva/Stynal/releases/latest/Stynal.zip) and extract it
 
 Clone the repository
 > (Optional if you downloaded the repository yourself and extracted it)
