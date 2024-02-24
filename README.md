@@ -62,3 +62,10 @@ Save the script and restart Powershell to apply changes. 🎉
 
 # Finding Themes
 You can find (and contribute to) a list of themes [here](https://github.com/Gapva/stynal-themes).
+
+# Updating
+You can update Stynal by navigating to wherever you have its master branch installed, and pulling changes.
+```console
+cd path\to\Stynal
+git pull
+```
