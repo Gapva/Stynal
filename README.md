@@ -3,3 +3,6 @@
 
 # installation
 WIP
+
+# finding themes
+WIP
