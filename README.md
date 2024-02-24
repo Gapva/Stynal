@@ -13,11 +13,11 @@ Clone the repository
 git clone Gapva/Stynal
 ```
 
-Navigate to wherever you cloned Stynal, then to the `stynal` subfolder
+Navigate to wherever you cloned Stynal, then to the `cli` subfolder
 > (Alternatively, you can navigate to the extracted directory in a file manager)
 ```console
 cd Stynal
-cd stynal
+cd cli
 ```
 
 Install the required dependencies using PIP (pre-packaged with Python)
@@ -53,7 +53,7 @@ Now that it is created, repeat the previous step to open it in your preferred te
 Paste the following information into the file, and make necessary changes:
 ```ps1
 function stynal {
-  $stynalPath = "A:\PATH\TO\STYNAL\stynal\stynal.py" # EDIT THIS TO REFLECT THE ACTUAL STYNAL PATH
+  $stynalPath = "A:\path\to\Stynal\cli\stynal.py" # EDIT THIS TO REFLECT THE ACTUAL STYNAL PATH
   & python $stynalPath @args
 }
 ```
