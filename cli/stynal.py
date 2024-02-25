@@ -57,6 +57,8 @@ def apply(theme: Annotated[str, typer.Argument(help="The path of the Signal them
         pyautogui.hotkey('ctrl', 'a') # focus devtools
         pyperclip.copy(open(f"{theme}", 'r').read())
         wdur()
+        pyautogui.press('right')
+        pyautogui.press('enter', presses=2)
         pyautogui.hotkey('ctrl', 'v') # paste theme data
         wdur(); wdur() # might need to wait double here
         pyautogui.hotkey('ctrl', 'shift', 'i') # close devtools
@@ -75,7 +77,7 @@ def list(dir: Annotated[str, typer.Argument(help="The directory you want to scan
     List all available themes in a directory
     """
     themes = [f"- {theme}" for theme in listdir(dir) if theme.endswith('.css')]
-    print(', '.join(themes))
+    print('\n'.join(themes))
 
 if __name__ == "__main__":
     app()
